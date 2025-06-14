@@ -3,11 +3,12 @@
 ## assignment1
 In this assignment we need to deploy a static website on s3 using terraform and create a project directory named terraform-aws-practice and within that we create a folder called assignment-01-s3-static-website in this folder i created the necessary files as mentioned in the assignment taking reference from the terraform registry and we need to create an s3 bucket using a variable name the bucket should be made public so i configured the settings accordingly and set the default settings to allow public access policies are associated with the bucket the assignment i set each policy to false and to host the bucket as a static website we need to configure the website settings i set up the aws policy using json and hcl files i also created an aws s3 object to attach the index.html file providing the appropriate key and source.we are required to output the web_endpoint which refers to the s3 website configuration after setting everything up i run using terraform init,terraform plan and terraform apply after getting the output i accessed the website url and it correctly displayed the expected message.
 
-![Screenshot (59)](https://github.com/user-attachments/assets/1a6845da-ef29-499f-92a2-017f9ca464a9)
+![Screenshot (73)](https://github.com/user-attachments/assets/33dbdced-eeea-4fb1-b1f4-5f4ca162ded9)
 
-![Screenshot (61)](https://github.com/user-attachments/assets/22e64baa-21f3-4cf7-a05c-88f13db2ce17)
+![Screenshot (72)](https://github.com/user-attachments/assets/33554ddf-bf66-477f-9ca8-d0790df316fc)
 
-![Screenshot (89)](https://github.com/user-attachments/assets/55e52610-35c4-4062-be5a-5589e535c70b)
+![Screenshot (89)](https://github.com/user-attachments/assets/ab202b9e-a14a-45f6-966e-15ed07570403)
+
 
 
 ## assignment2
